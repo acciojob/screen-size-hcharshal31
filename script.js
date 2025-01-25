@@ -6,5 +6,4 @@ function updateHeight(){
 	document.getElementById("height").textContent = height;
 }
 updateHeight();
-window.addEventListner("resize", updateHeight);
-
+window.addEventListener("resize", updateHeight);
